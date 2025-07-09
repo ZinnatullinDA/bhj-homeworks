@@ -9,7 +9,6 @@ for (let i = 1; i <= 9; i += 1) {
   const hole = getHole(i)
 
   hole.onclick = () => {
-    // Попали по кроту?
     if (hole.classList.contains('hole_has-mole')) {
       dead.textContent = Number(dead.textContent) + 1
     } else {
